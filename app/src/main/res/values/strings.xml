@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quake Report</string>
+    <string name="no_earthquakes_found">No earthquakes found</string>
+    <string name="no_internet_connection">No internet connection</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_start_time_label">Start Time</string>
+    <string name="settings_start_time_key" translatable="false">start_time</string>
+    <string name="settings_start_time_default" translatable="false">N/A</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_end_time_label">End Time</string>
+    <string name="settings_end_time_key" translatable="false">end_time</string>
+    <string name="settings_end_time_default" translatable="false">N/A</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <string name="contact_form">Contact Form</string>
+    <string name="contact_details">Contact Details</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+    <string name="dialog_message">Please specify the date range you want to see earthquakes through and press OK or press CANCEL to set date value to N/A</string>
+    <string name="dialog_title">Date Range Error !</string>
+    <string name="contactInfo_menu_item">Contact Info</string>
+    <string name="contactForm_menu_item">Contact Form</string>
+    <string name="menu_title">menu</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="ok_text">OK</string>
+    <string name="cancel_text" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="email_text">Email</string>
+    <string name="call_text">Call</string>
+    <string name="email_text_title">Email:</string>
+    <string name="call_text_title">Call:</string>
+    <string name="usgs_contact_call_text_title">USGS Contact Calls:</string>
+    <string name="about_text_title">About:</string>
+    <string name="OR_text">OR</string>
+    <string name="usgs_contact_title">Contact USGS</string>
+    <string name="congressional_contact_title">Congressional Contacts</string>
+    <string name="usgs_contact_email">usgsstore@usgs.gov</string>
+    <string name="congressional_contact_email">cong_liaison@usgs.gov</string>
+    <string name="usgs_contact_call1" tools:ignore="TypographyDashes">1-888-275-8747</string>
+    <string name="usgs_contact_call2" tools:ignore="TypographyDashes">1-888-392-8545</string>
+    <string name="congressional_contact_call" tools:ignore="TypographyDashes">703-648-4455</string>
+    <string name="usgs_contact_about">For all Park Pass orders and delivery status</string>
+    <string name="congressional_contact_about">Congressional Liaison Office, for any questions or concerns</string>
+</resources>
