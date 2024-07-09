@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace 'kh.ad.quakereport'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "kh.ad.quakereport"
         minSdk 21
-        targetSdk 33
-        versionCode 18
-        versionName "2.5"
+        targetSdk 34
+        versionCode 19
+        versionName "2.6"
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
